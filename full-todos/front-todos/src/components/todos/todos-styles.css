@@ -1,0 +1,32 @@
+.todos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin-top: 2%;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 75, 254);
+    color: white;
+    padding: 5px;
+    width: 38.7%;
+    border: 1px solid gray;
+    border-radius: 2px;
+    margin: auto;
+    margin-top: 1.5%;
+}
+
+.check {
+    background-color: rgba(255, 246, 6, 0.25);
+    color: black;
+}
+
+.deleteBtn {
+    margin-left: 3px;
+    background-color: transparent;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
