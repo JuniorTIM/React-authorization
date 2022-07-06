@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(91, 91, 253);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    margin-top: 5%;
+    width: 30%;
+    height: 25px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+.addButton {
+    margin-top: 5%;
+    width: 7%;
+    margin-left: 2%;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.buttons-block {
+    position: absolute;
+    left: 87%;
+    bottom: 93%;
+    height: 20px;
+}
+
+.link {
+    color: black;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.link:hover {
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 3.5px solid rgb(255, 255, 255);
+}
+
+.logout {
+    margin-top: 1.2%;
+    margin-left: 2%;
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    cursor: pointer;
+    color: white;
+}
+

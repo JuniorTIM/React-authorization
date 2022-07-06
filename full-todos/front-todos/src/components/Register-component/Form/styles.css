@@ -1,0 +1,57 @@
+.join-button {
+    height: 30px;
+    margin-top: 2%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.join-button:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+    height: 30px;
+    margin-top: 2%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.join-text {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 11%;
+}
+
+.login-input {
+    height: 28px;
+    outline: none;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+.pass-input {
+    height: 28px;
+    outline: none;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+.err-reg {
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-top: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+}

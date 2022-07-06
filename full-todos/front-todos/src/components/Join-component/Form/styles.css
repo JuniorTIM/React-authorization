@@ -1,0 +1,37 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.join-text {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 11%;
+}
+
+.login-input {
+    height: 28px;
+    outline: none;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+.pass-input {
+    height: 28px;
+    outline: none;
+    margin-top: 3%;
+    margin-bottom: 8%;
+}
+
+.join-button {
+    height: 30px;
+    margin-top: 2%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}

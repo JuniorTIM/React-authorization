@@ -7,6 +7,7 @@ app.use(cors())
 app.use(express.json())
 
 app.use(require('./route/Todo.routes'))
+app.use(require('./route/user.route'))
 
 const port = 4000;
 
@@ -16,7 +17,6 @@ mongoose
   )
   .then(() => console.log("Успешно соединились с MongoDB"))
   .catch(() => console.log("Ошибка при соединии с сервером"));
-
 app.listen(port, () => {
   console.log("Server is working");
 });
